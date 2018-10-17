@@ -1,0 +1,36 @@
+$green: #e4ede0;
+$blue-native:#dfe7ed;
+$red-native:#eddfdf;
+$red:darken($red-native,15%);
+$blue:darken($blue-native,15%);
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    font-size: 62.5%;
+  }
+  
+  body{
+    background:#f2f2f2;
+    color:#555555;
+    font-family:Helvetica, Arial,sans-serif;
+    font-size: 1.6rem;
+  }
+  
+  input,select,button{
+    font-size: 1.3rem;
+  }
+
+  h1{
+    font-weight:300;
+    font-size: 2.4rem;
+  }
+  
+
+  @import '../styles/components/titlebar';
+  @import '../styles/components/wrapper';
+  @import '../styles/components/item';
+  @import '../styles/components/player';
+  @import '../styles/components/button';
+  @import '../styles/components/form';
